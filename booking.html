@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Booking | CRAFTSVILLA</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    style="
+      background-image: url('images/painting-hands.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    "
+  >
+    <header>
+      <div class="header-container">
+        <img class="logo" src="images/logo-hvit.png" alt="CraftsVilla logo" />
+        <nav>
+          <ul>
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="index.html#om">Om oss</a></li>
+            <li><a href="index.html#tjenester">Tjenester</a></li>
+            <li><a href="index.html#kontakt">Kontakt</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="tilbakemeldinger.html">Tilbakemeldinger</a></li>
+            <li><a href="galleri.html">Galleri</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section>
+        <h2>Bestill en workshop</h2>
+        <p>Velg en kunstform og tidspunkt som passer deg.</p>
+
+        <div class="kort">
+          <form>
+            <label for="kunstform">Velg kunstform:</label>
+            <select id="kunstform" name="kunstform">
+              <option>Mosaikk Kunst – 400 kr</option>
+              <option>Akvarellmaling – 200 kr</option>
+              <option>Lerretsmaling – 300 kr</option>
+            </select>
+
+            <label for="dato">Velg dato:</label>
+            <input type="date" id="dato" name="dato" />
+
+            <label for="tid">Velg tidspunkt:</label>
+            <input type="time" id="tid" name="tid" />
+
+            <button type="submit">Send forespørsel</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer id="kontakt">
+      <p>Kontakt oss: kontakt@craftsvilla.no</p>
+    </footer>
+  </body>
+</html>
